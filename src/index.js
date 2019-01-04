@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import HelloWorld from "./kita";
 import "./styles.css";
 import { Component, Prop } from "@stencil/core";
+import FireComponent from "./firebaseComponent.jsx";
 //import { defineCustomElements } from "test-components/dist/loader";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <h2>mala komponenta!</h2>
       <HelloWorld />
       <my-first-component name="Max" />
+      <FireComponent />
     </div>
   );
 }
