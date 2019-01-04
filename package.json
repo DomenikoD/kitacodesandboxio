@@ -5,12 +5,18 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@stencil/core": "0.16.1",
     "axios": "0.18.0",
+    "iobroker.s7": "1.1.4",
     "react": "16.5.2",
     "react-dom": "16.5.2",
-    "react-scripts": "2.0.3"
+    "react-scripts": "2.0.3",
+    "test-components": "1.0.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/react": "16.7.18",
+    "@types/react-dom": "16.0.11"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
